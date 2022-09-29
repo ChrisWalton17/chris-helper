@@ -18,10 +18,10 @@ local color = 0xFFFFFF
 local build = 2
 local version_text = '1.0 beta'
 
-local update_url = "https://raw.githubusercontent.com/ChrisWalton17/chris-helper/main/update.ini"
+local update_url = "https://raw.githubusercontent.com/ChrisWalton17/chris-helper/general/update.ini"
 local update_path = getWorkingDirectory() .. "/update.ini"
 
-local script_url = ""
+local script_url = "https://raw.githubusercontent.com/ChrisWalton17/chris-helper/general/chrishelper.lua"
 local script_path = thisScript().path
 
 update_status = false -- статус автообновления скрипта
